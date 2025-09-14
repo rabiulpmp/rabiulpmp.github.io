@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "company": "Akij Group",
+    "position": "Manager, Supply Chain (Import & Local)",
+    "duration": "Jan 2023 - Present",
+    "location": "Dhaka, Bangladesh",
+    "description": "Lead and optimize supply chain operations, developing robust strategies that optimize procurement KPIs in Quality, Inventory, Delivery, & Cost Savings. Manage commercial import sourcing and ensure seamless coordination among Production, Sales, and Finance.",
+    "achievements": [
+      "Develops robust strategy, optimizing procurement KPIs in Quality, Inventory, Delivery, & Cost Savings",
+      "Identifies and resolves shipping and delivery bottlenecks through data-driven solutions",
+      "Manages commercial import sourcing, negotiates prices, and fosters strong supplier relationships, driving improved terms and cost efficiencies",
+      "Streamlines import documentation for timely consignment release and ensures seamless coordination among Production, Sales, and Finance for smooth shipment schedules and funding",
+      "Oversees logistics operations, ensuring on-time deliveries by optimizing transportation methods",
+      "Manages financial aspects, ensuring LC compliance, timely payment releases, and minimized risks",
+      "Maintains optimal inventory levels, reducing procurement costs, and meeting customer demands",
+      "Cultivates relationships with suppliers, securing competitive pricing on essential materials & services",
+      "Provides guidance, training, and performance evaluations to the procurement team, fostering a high-performing unit"
+    ],
+    "technologies": ["ERP Systems", "Supply Chain Management", "Import Documentation", "Logistics Optimization", "Financial Management", "LC Compliance"]
+  },
+  {
+    "id": 2,
+    "company": "Akij Group",
+    "position": "Assistant Procurement Manager (Import & Local)",
+    "duration": "Jul 2019 - Dec 2022",
+    "location": "Dhaka, Bangladesh",
+    "description": "Optimized inventory, negotiation, and logistics operations, cutting lead times and boosting efficiency. Managed purchase orders using ERP systems and fostered strong relationships between departments, suppliers, and clients.",
+    "achievements": [
+      "Optimized inventory, negotiation, and logistics, cutting lead times and boosting efficiency",
+      "Resolved diverse supply chain issues, ensuring seamless operations",
+      "Maximized territory-wide operations through smart inventory management & fast-tracked deliveries",
+      "Managed purchase orders flawlessly using ERP systems, enhancing procurement precision",
+      "Fostered strong ties between departments, suppliers, and clients, aligning with business goals",
+      "Swiftly resolved equipment issues for store managers and associates",
+      "Nurtured key account partnerships for long-term business growth",
+      "Crafted efficient procurement procedures, collaborated on improving raw materials & product quality",
+      "Balanced stakeholder needs while meeting organizational goals"
+    ],
+    "technologies": ["ERP Systems", "Inventory Management", "Supplier Relations", "Logistics Coordination"]
+  },
+  {
+    "id": 3,
+    "company": "Akij Group",
+    "position": "Senior Procurement Officer",
+    "duration": "Jul 2017 - Jun 2019",
+    "location": "Dhaka, Bangladesh",
+    "description": "Streamlined procurement processes and supply management, achieving significant cost reductions. Instituted supplier incentive programs and overhauled inspection policies for enhanced compliance and efficiency.",
+    "achievements": [
+      "Slashed material expenses by 8-10% through streamlined tracking and supply management, optimizing procurement efficiency",
+      "Instituted incentive programs for suppliers, enhancing performance & ensuring timely deliveries",
+      "Overhauled inspection policies, ensuring compliance and efficiency in supply chain processes",
+      "Managed new product procurement & inventory, ensuring availability while minimizing excess stock",
+      "Collaborated with clients to swiftly resolve claim issues, fostering strong relationships and satisfaction",
+      "Liaised with managers and supervisors to meet specific procurement needs efficiently",
+      "Utilized ERP and inventory software for precise purchase authorization and consumable management, optimizing workflow and documentation"
+    ],
+    "technologies": ["ERP Software", "Inventory Software", "Supply Chain Analytics", "Procurement Systems"]
+  },
+  {
+    "id": 4,
+    "company": "Akij Group",
+    "position": "Procurement Officer",
+    "duration": "Jul 2012 - Jun 2017",
+    "location": "Dhaka, Bangladesh",
+    "description": "Managed procurement operations, monthly reconciliation of purchasing orders, and vendor relationships. Implemented cost reduction policies and optimized logistics and scheduling for seamless operations.",
+    "achievements": [
+      "Managed precise monthly reconciliation of purchasing orders, ensuring financial clarity",
+      "Resolved diverse supply chain challenges, optimizing logistics and scheduling for seamless operations",
+      "Implemented policies reducing costs and eliminating waste, enhancing financial performance",
+      "Cultivated vendor relationships, skillfully negotiating prices for favorable terms",
+      "Responded promptly to calls, creating orders to address equipment issues, prioritizing safety",
+      "Directed procurement, ensuring sufficient inventory for materials and finished goods"
+    ],
+    "technologies": ["Purchase Order Management", "Financial Reconciliation", "Vendor Management Systems"]
+  },
+  {
+    "id": 5,
+    "company": "Akij Group",
+    "position": "Assistant Procurement Officer",
+    "duration": "Jan 2010 - Jun 2012",
+    "location": "Dhaka, Bangladesh",
+    "description": "Streamlined procurement operations, managed vendor relationships, and optimized inventory management. Provided key metrics for informed decision-making and maintained consistent product availability.",
+    "achievements": [
+      "Streamlined open order reconciliation, resolving complex supply chain issues & optimizing operations",
+      "Implemented policies to cut costs and waste, negotiating competitive vendor prices",
+      "Managed inbound communications, ensuring prompt work order creation & uninterrupted operations",
+      "Oversaw new product procurement, optimizing stock to meet demands effectively",
+      "Organized meticulous records, collaborated for promotions, and maintained vendor relationships",
+      "Negotiated vendor contracts for consistent availability and optimal pricing",
+      "Maintained timely order tracking, demonstrating adaptability in fluctuating tasks",
+      "Provided metrics for product availability, costs, and delivery to drive informed decisions"
+    ],
+    "technologies": ["Order Management", "Vendor Contract Management", "Inventory Tracking", "Supply Chain Metrics"]
+  }
+]

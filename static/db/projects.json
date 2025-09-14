@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Akij Group Supply Chain Optimization Initiative",
+    "description": "Led comprehensive supply chain transformation at Akij Group, optimizing procurement KPIs across Quality, Inventory, Delivery, and Cost Savings. Implemented data-driven solutions that resolved shipping bottlenecks and improved operational efficiency.",
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop",
+    "technologies": ["ERP Systems", "Supply Chain Analytics", "Import Documentation", "Logistics Optimization"],
+    "category": "supply-chain-management",
+    "client": "Akij Group",
+    "date": "2023-Present",
+    "results": "Achieved significant cost savings and improved delivery performance"
+  },
+  {
+    "id": 2,
+    "title": "Strategic Procurement Process Optimization",
+    "description": "Developed and implemented robust procurement strategies that streamlined import sourcing, enhanced supplier relationships, and achieved 8-10% reduction in material expenses through optimized tracking and supply management.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+    "technologies": ["Procurement Systems", "Vendor Management", "Cost Analysis", "ERP Integration"],
+    "category": "procurement-optimization",
+    "client": "Akij Group",
+    "date": "2019-2023",
+    "results": "8-10% reduction in material costs and improved supplier performance"
+  },
+  {
+    "id": 3,
+    "title": "Import/Export Documentation Streamlining",
+    "description": "Revolutionized import documentation processes for timely consignment release, ensuring seamless coordination among Production, Sales, and Finance departments. Implemented LC compliance and risk management protocols.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    "technologies": ["Import Documentation", "LC Management", "Compliance Systems", "Cross-Department Coordination"],
+    "category": "import-export-operations",
+    "client": "Akij Group",
+    "date": "2017-Present",
+    "results": "Improved documentation processing time and reduced compliance risks"
+  },
+  {
+    "id": 4,
+    "title": "Supplier Relationship Management Program",
+    "description": "Established comprehensive supplier relationship management program, implementing incentive systems for enhanced performance, competitive pricing negotiations, and long-term partnership development for strategic materials and services.",
+    "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=400&fit=crop",
+    "technologies": ["Supplier Management Systems", "Performance Metrics", "Contract Management", "Relationship Building"],
+    "category": "supplier-management",
+    "client": "Akij Group",
+    "date": "2017-Present",
+    "results": "Secured competitive pricing and improved supplier performance metrics"
+  },
+  {
+    "id": 5,
+    "title": "Inventory Optimization & Cost Reduction",
+    "description": "Implemented advanced inventory management strategies that maintained optimal stock levels while minimizing procurement costs. Developed smart inventory management systems that fast-tracked deliveries and maximized territory-wide operations.",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
+    "technologies": ["Inventory Management", "Demand Forecasting", "Stock Optimization", "ERP Systems"],
+    "category": "inventory-management",
+    "client": "Akij Group",
+    "date": "2015-Present",
+    "results": "Optimized inventory levels and reduced carrying costs"
+  },
+  {
+    "id": 6,
+    "title": "Cross-Functional Team Leadership & Development",
+    "description": "Led and developed high-performing procurement teams, providing guidance, training, and performance evaluations. Fostered cross-functional coordination between departments, suppliers, and clients to align with business goals.",
+    "image": "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=600&h=400&fit=crop",
+    "technologies": ["Team Leadership", "Performance Management", "Training Development", "Cross-Functional Coordination"],
+    "category": "team-leadership",
+    "client": "Akij Group",
+    "date": "2012-Present",
+    "results": "Built high-performing teams and improved departmental efficiency"
+  }
+]

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Rabiul Islam - Supply Chain Manager & Procurement Specialist</title>
+    <meta name="description" content="Supply Chain Manager specializing in procurement optimization, logistics management, and strategic supplier relationships. Expert in import/export operations and inventory optimization.">
+    <meta name="keywords" content="Supply Chain Manager, Procurement Specialist, Logistics Manager, Import Export, Inventory Management, Supplier Relationship Management">
+    <meta name="author" content="Md. Rabiul Islam">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rabiulpmp.github.io">
+    <meta property="og:title" content="Md. Rabiul Islam - Supply Chain Manager & Procurement Specialist">
+    <meta property="og:description" content="Supply Chain Manager specializing in procurement optimization, logistics management, and strategic supplier relationships.">
+    <meta property="og:image" content="https://rabiulpmp.github.io/assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rabiulpmp.github.io">
+    <meta property="twitter:title" content="Md. Rabiul Islam - Supply Chain Manager & Procurement Specialist">
+    <meta property="twitter:description" content="Supply Chain Manager specializing in procurement optimization, logistics management, and strategic supplier relationships.">
+    <meta property="twitter:image" content="https://rabiulpmp.github.io/assets/images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Heroicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@heroicons/react@2.0.16/24/outline/index.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- TailwindCSS Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        },
+                        dark: {
+                            50: '#18181b',
+                            100: '#27272a',
+                            200: '#3f3f46',
+                            300: '#52525b',
+                            400: '#71717a',
+                            500: '#a1a1aa',
+                            600: '#d4d4d8',
+                            700: '#e4e4e7',
+                            800: '#f4f4f5',
+                            900: '#fafafa',
+                        },
+                        accent: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-dark-50 text-dark-700"">
+    <!-- Sidebar Navigation -->
+    <aside id="sidebar" class="fixed left-0 top-0 z-50 h-screen w-64 bg-dark-100 border-r border-dark-200 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out">
+        <div class="flex flex-col h-full">
+            <!-- Logo/Profile Section -->
+            <div class="flex items-center justify-center p-6 border-b border-dark-200">
+                <div class="text-center">
+                    <img id="sidebar-avatar" src="" alt="Rabiul Islam" class="w-16 h-16 rounded-full mx-auto mb-3 border-2 border-primary-500">
+                    <h2 class="text-lg font-bold text-dark-800">Rabiul Islam</h2>
+                    <p class="text-sm text-dark-600">Supply Chain Manager</p>
+                </div>
+            </div>
+            
+            <!-- Navigation Links -->
+            <nav class="flex-1 px-4 py-6">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#home" class="nav-link flex items-center px-4 py-3 text-dark-600 hover:bg-primary-900 hover:bg-opacity-20 hover:text-primary-400 rounded-lg transition-colors group">
+                            <i class="fas fa-home mr-3 text-lg"></i>
+                            <span class="font-medium">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link flex items-center px-4 py-3 text-dark-600 hover:bg-primary-900 hover:bg-opacity-20 hover:text-primary-400 rounded-lg transition-colors group">
+                            <i class="fas fa-user mr-3 text-lg"></i>
+                            <span class="font-medium">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav-link flex items-center px-4 py-3 text-dark-600 hover:bg-primary-900 hover:bg-opacity-20 hover:text-primary-400 rounded-lg transition-colors group">
+                            <i class="fas fa-cogs mr-3 text-lg"></i>
+                            <span class="font-medium">Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link flex items-center px-4 py-3 text-dark-600 hover:bg-primary-900 hover:bg-opacity-20 hover:text-primary-400 rounded-lg transition-colors group">
+                            <i class="fas fa-briefcase mr-3 text-lg"></i>
+                            <span class="font-medium">Portfolio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#testimonials" class="nav-link flex items-center px-4 py-3 text-dark-600 hover:bg-primary-900 hover:bg-opacity-20 hover:text-primary-400 rounded-lg transition-colors group">
+                            <i class="fas fa-quote-left mr-3 text-lg"></i>
+                            <span class="font-medium">Testimonials</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link flex items-center px-4 py-3 text-dark-600 hover:bg-primary-900 hover:bg-opacity-20 hover:text-primary-400 rounded-lg transition-colors group">
+                            <i class="fas fa-envelope mr-3 text-lg"></i>
+                            <span class="font-medium">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <!-- Social Links -->
+            <div class="p-4 border-t border-dark-200">
+                <div class="flex justify-center space-x-4">
+                    <a id="sidebar-github" href="#" target="_blank" class="w-10 h-10 bg-dark-200 rounded-full flex items-center justify-center text-dark-600 hover:bg-primary-600 hover:text-white transition-colors">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a id="sidebar-linkedin" href="#" target="_blank" class="w-10 h-10 bg-dark-200 rounded-full flex items-center justify-center text-dark-600 hover:bg-primary-600 hover:text-white transition-colors">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a id="sidebar-email" href="#" class="w-10 h-10 bg-dark-200 rounded-full flex items-center justify-center text-dark-600 hover:bg-primary-600 hover:text-white transition-colors">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-button" class="fixed top-4 left-4 z-50 lg:hidden bg-dark-100 p-2 rounded-lg shadow-lg border border-dark-200 text-dark-600 hover:text-primary-400 transition-colors">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </button>
+
+    <!-- Sidebar Overlay (Mobile) -->
+    <div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden hidden"></div>
+
+    <!-- Main Content Wrapper -->
+    <div class="lg:ml-64 min-h-screen"
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-dark-50 via-dark-100 to-dark-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center">
+                <!-- Avatar -->
+                <div class="mb-8 animate-fade-in">
+                    <img id="hero-avatar" src="" alt="Md. Rabiul Islam" class="w-32 h-32 rounded-full mx-auto border-4 border-primary-500 shadow-lg shadow-primary-500/20">
+                </div>
+                
+                <!-- Name -->
+                <h1 id="hero-name" class="text-4xl md:text-6xl font-bold text-dark-800 mb-4 animate-slide-up"></h1>
+                
+                <!-- Title -->
+                <p id="hero-title" class="text-xl md:text-2xl text-dark-700 mb-8 animate-slide-up-delay"></p>
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay">
+                    <a href="#contact" class="bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors shadow-lg shadow-primary-600/25 hover:shadow-xl hover:shadow-primary-600/30 transform hover:-translate-y-1 transition-transform">
+                        Hire Me
+                    </a>
+                    <a id="download-cv" href="#" class="border-2 border-primary-600 text-primary-400 px-8 py-3 rounded-lg font-semibold hover:bg-primary-600 hover:text-white transition-colors">
+                        Download CV
+                    </a>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="mt-12 flex justify-center space-x-6 animate-fade-in-delay-2">
+                    <a id="github-link" href="#" target="_blank" class="text-dark-600 hover:text-primary-400 transition-colors transform hover:scale-110 transition-transform">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a id="linkedin-link" href="#" target="_blank" class="text-dark-600 hover:text-primary-400 transition-colors transform hover:scale-110 transition-transform">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a id="email-link" href="#" class="text-dark-600 hover:text-primary-400 transition-colors transform hover:scale-110 transition-transform">
+                        <i class="fas fa-envelope text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <a href="#about" class="text-dark-600 hover:text-primary-400 transition-colors">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-dark-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-800 mb-4">About Me</h2>
+                <p class="text-dark-600 max-w-2xl mx-auto">Get to know me</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- About Image -->
+                <div class="order-2 lg:order-1">
+                    <img src="static/img/profile.jpg" alt="About Me" class="rounded-lg shadow-lg w-full">
+                </div>
+                
+                <!-- About Content -->
+                <div class="order-1 lg:order-2">
+                    <h3 class="text-2xl font-bold text-dark-800 mb-4">Who am I?</h3>
+                    <h4 id="about-subtitle" class="text-lg font-semibold text-primary-400 mb-6"></h4>
+                    
+                    <div id="about-description" class="text-dark-700 mb-8 space-y-4"></div>
+                    
+                    <!-- Personal Details -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                        <div>
+                            <span class="font-semibold text-dark-800">Name:</span>
+                            <span id="about-name" class="text-dark-700 ml-2"></span>
+                        </div>
+                        <div>
+                            <span class="font-semibold text-dark-800">Email:</span>
+                            <a id="about-email" href="#" class="text-primary-400 hover:text-primary-300 ml-2"></a>
+                        </div>
+                        <div>
+                            <span class="font-semibold text-dark-800">Phone:</span>
+                            <span id="about-phone" class="text-dark-700 ml-2"></span>
+                        </div>
+                        <div>
+                            <span class="font-semibold text-dark-800">From:</span>
+                            <span id="about-location" class="text-dark-700 ml-2"></span>
+                        </div>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#contact" class="bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors text-center">
+                            Contact Me
+                        </a>
+                        <a href="#portfolio" class="border-2 border-primary-600 text-primary-400 px-6 py-3 rounded-lg font-semibold hover:bg-primary-600 hover:text-white transition-colors text-center">
+                            My Work
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-dark-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-800 mb-4">My Skills</h2>
+                <p class="text-dark-600 max-w-2xl mx-auto">Technologies and tools I work with</p>
+            </div>
+            
+            <div id="skills-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skills will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-dark-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-800 mb-4">My Services</h2>
+                <p class="text-dark-600 max-w-2xl mx-auto">Services I offer to my clients</p>
+            </div>
+            
+            <div id="services-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Services will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-dark-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-800 mb-4">Portfolio</h2>
+                <p class="text-dark-600 max-w-2xl mx-auto">Showcasing some of my best work</p>
+            </div>
+            
+            <!-- Portfolio Filters -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <button class="portfolio-filter active bg-primary-600 text-white px-6 py-2 rounded-full font-medium hover:bg-primary-700 transition-colors" data-filter="all">
+                    All
+                </button>
+                <button class="portfolio-filter bg-dark-200 text-dark-700 px-6 py-2 rounded-full font-medium hover:bg-dark-300 hover:text-dark-800 transition-colors" data-filter="supply-chain-management">
+                    Supply Chain
+                </button>
+                <button class="portfolio-filter bg-dark-200 text-dark-700 px-6 py-2 rounded-full font-medium hover:bg-dark-300 hover:text-dark-800 transition-colors" data-filter="procurement-optimization">
+                    Procurement
+                </button>
+                <button class="portfolio-filter bg-dark-200 text-dark-700 px-6 py-2 rounded-full font-medium hover:bg-dark-300 hover:text-dark-800 transition-colors" data-filter="logistics-management">
+                    Logistics
+                </button>
+            </div>
+            
+            <div id="portfolio-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio items will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-dark-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-800 mb-4">Testimonials</h2>
+                <p class="text-dark-600 max-w-2xl mx-auto">What my clients think about me</p>
+            </div>
+            
+            <div id="testimonials-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonials will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-dark-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-800 mb-4">Get in Touch</h2>
+                <p class="text-dark-600 max-w-2xl mx-auto">Feel free to contact me anytime</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div>
+                    <form id="contact-form" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-dark-700 mb-2">Name</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-dark-300 bg-dark-200 text-dark-700 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-dark-700 mb-2">Email</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-dark-300 bg-dark-200 text-dark-700 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-dark-700 mb-2">Subject</label>
+                            <input type="text" id="subject" name="subject" required class="w-full px-4 py-3 border border-dark-300 bg-dark-200 text-dark-700 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-dark-700 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="6" required class="w-full px-4 py-3 border border-dark-300 bg-dark-200 text-dark-700 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary-600 text-white py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="space-y-8">
+                    <div class="flex items-start space-x-4">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-map-marker-alt text-primary-400 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-dark-800 mb-1">Location</h3>
+                            <p id="contact-location" class="text-dark-700"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-phone text-primary-400 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-dark-800 mb-1">Phone</h3>
+                            <a id="contact-phone" href="#" class="text-dark-700 hover:text-primary-400 transition-colors"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-envelope text-primary-400 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-dark-800 mb-1">Email</h3>
+                            <a id="contact-email" href="#" class="text-dark-700 hover:text-primary-400 transition-colors"></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Links -->
+                    <div class="pt-8">
+                        <h3 class="text-lg font-semibold text-dark-800 mb-4">Follow Me</h3>
+                        <div class="flex space-x-4">
+                            <a id="contact-github" href="#" target="_blank" class="w-10 h-10 bg-dark-200 rounded-full flex items-center justify-center text-dark-600 hover:bg-primary-600 hover:text-white transition-colors">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a id="contact-linkedin" href="#" target="_blank" class="w-10 h-10 bg-dark-200 rounded-full flex items-center justify-center text-dark-600 hover:bg-primary-600 hover:text-white transition-colors">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-200 text-dark-700 py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4">Let's work together!</h3>
+                <p class="text-dark-600 mb-8">I am available for supply chain consulting and procurement optimization projects. Contact me and let's optimize your operations.</p>
+                <a href="#contact" class="bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">
+                    Hire Me
+                </a>
+                
+                <div class="mt-12 pt-8 border-t border-dark-300 text-center text-dark-600">
+                    <p>&copy; 2025 Md. Rabiul Islam. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loading" class="fixed inset-0 bg-dark-50 z-50 flex items-center justify-center">
+        <div class="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-primary-600"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

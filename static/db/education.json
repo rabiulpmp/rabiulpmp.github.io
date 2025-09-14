@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "degree": "Master's in Procurement & Supply Management",
+    "institution": "BRAC University",
+    "duration": "2020",
+    "location": "Dhaka, Bangladesh",
+    "gpa": "3.25/4.00",
+    "description": "Specialized in strategic procurement, supply chain optimization, vendor management, and logistics. Focused on developing expertise in procurement processes, inventory management, and supply chain analytics.",
+    "achievements": [
+      "Completed comprehensive coursework in procurement strategies and supply chain management",
+      "Developed expertise in vendor relationship management and negotiation techniques",
+      "Studied advanced logistics and inventory optimization methodologies",
+      "Graduated with strong academic performance in procurement and supply management"
+    ]
+  },
+  {
+    "id": 2,
+    "degree": "BSc in Electrical & Electronic Engineering (EEE)",
+    "institution": "Atish Dipakar University of Science & Technology",
+    "duration": "2013",
+    "location": "Dhaka, Bangladesh",
+    "gpa": "3.19/4.00",
+    "description": "Studied electrical and electronic engineering principles, providing a strong technical foundation that complements supply chain and logistics management capabilities.",
+    "achievements": [
+      "Gained technical expertise in electrical and electronic systems",
+      "Developed analytical and problem-solving skills applicable to supply chain optimization",
+      "Completed projects involving system design and optimization",
+      "Built foundation for understanding technical aspects of procurement and logistics"
+    ]
+  },
+  {
+    "id": 3,
+    "degree": "Diploma in Mechanical Engineering",
+    "institution": "Jessore Polytechnic Institute",
+    "duration": "2008",
+    "location": "Jessore, Bangladesh",
+    "gpa": "3.25/4.00",
+    "description": "Foundational engineering education in mechanical systems, manufacturing processes, and technical problem-solving that supports understanding of industrial operations and supply chain requirements.",
+    "achievements": [
+      "Achieved excellent academic performance",
+      "Gained practical knowledge of mechanical systems and manufacturing",
+      "Developed technical understanding applicable to industrial procurement",
+      "Built foundation for career in supply chain and operations management"
+    ]
+  }
+]

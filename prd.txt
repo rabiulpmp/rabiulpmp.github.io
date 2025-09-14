@@ -1,0 +1,51 @@
+# Product Requirements Document (PRD)
+
+## Project Title
+Md. Rabiul Islam
+
+## Web Template: https://exillcodex.netlify.app/template/
+
+## Overview
+A static portfolio website that showcases the professional profile of **Md. Rabiul Islam**, using a clean, modern, and responsive design. The site will read all dynamic content from JSON files to ensure easy updates without modifying the HTML.
+
+The website will act as a personal brand platform where potential employers, collaborators, and peers can explore. The UI, layout, and navigation must be similar to this template https://exillcodex.netlify.app/template/
+
+---
+
+## Tech Stack
+- HTML (index.html)
+- CSS (style.css)
+- JavaScript (script.js)
+- TailwindCSS (for styling)
+- Free Icon Library (e.g., Heroicons or FontAwesome)
+- JSON (for content storage under `/static/db`)
+
+No other frameworks or libraries should be used.
+
+## Interaction Requirements
+- Smooth scroll to sections when menu item clicked.
+- Highlight active menu item when scrolling.
+- Fully responsive for desktop, tablet, and mobile.
+- Eye-friendly clean color scheme (soft neutral background, accent color for highlights).
+- Hover and transition effects on buttons and links.
+---
+
+## Data Management
+- All data must be read from JSON files inside `/static/db/`.
+- Example file: `skills.json`
+{
+  "languages": ["Java", "JavaScript", "TypeScript", "Python"],
+  "frameworks": ["Spring Boot", "Express.js", "Flask", "React"],
+  "databases": ["Oracle", "MySQL", "PostgreSQL", "MyBatis", "Hibernate", "TypeORM"],
+  "tools": ["Kafka", "Hazelcast", "CI/CD", "Docker", "Kubernetes", "Jenkins", "Git"],
+  "ai_tools": ["GitHub Copilot", "Gemini CLI", "Google Stitch", "NotebookLM"],
+  "testing": ["JUnit", "TestNG", "Selenium", "Postman", "Jest"]
+}
+
+---
+
+## Success Metrics
+- Fully responsive across devices.
+- Smooth scrolling and clean navigation.
+- JSON-driven dynamic data (no hardcoding in HTML).
+- Fast load time (lightweight, static).

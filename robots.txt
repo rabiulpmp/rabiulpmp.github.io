@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rabiulpmp.github.io/sitemap.xml
+
+# Disallow
+Disallow: /static/db/
+Disallow: *.pdf$

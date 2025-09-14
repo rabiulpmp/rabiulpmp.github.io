@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "�",
+    "title": "Supply Chain Optimization",
+    "description": "Comprehensive supply chain analysis and optimization, improving efficiency, reducing costs, and enhancing delivery performance across all operations."
+  },
+  {
+    "id": 2,
+    "icon": "💼",
+    "title": "Strategic Procurement",
+    "description": "Expert procurement strategy development, vendor selection, contract negotiation, and supplier relationship management for optimal cost savings."
+  },
+  {
+    "id": 3,
+    "icon": "�",
+    "title": "Logistics Management",
+    "description": "End-to-end logistics planning and execution, including transportation optimization, warehouse management, and distribution strategies."
+  },
+  {
+    "id": 4,
+    "icon": "🌍",
+    "title": "Import/Export Operations",
+    "description": "Complete import and export management services, including documentation, customs clearance, compliance, and international trade facilitation."
+  },
+  {
+    "id": 5,
+    "icon": "📊",
+    "title": "Inventory Optimization",
+    "description": "Advanced inventory management solutions to minimize carrying costs while ensuring optimal stock levels and meeting customer demand."
+  },
+  {
+    "id": 6,
+    "icon": "🤝",
+    "title": "Supplier Relationship Management",
+    "description": "Building and maintaining strategic supplier partnerships, performance evaluation, and collaborative improvement initiatives for mutual growth."
+  }
+]
