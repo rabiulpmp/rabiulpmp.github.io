@@ -296,14 +296,23 @@ class PortfolioApp {
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', (e) => {
-                e.preventDefault();
-                const target = document.querySelector(anchor.getAttribute('href'));
-                if (target) {
-                    const offsetTop = target.offsetTop - 20; // Small offset for better viewing
-                    window.scrollTo({
-                        top: offsetTop,
-                        behavior: 'smooth'
-                    });
+                const href = anchor.getAttribute('href');
+                // Only handle internal anchor links, not external URLs or just "#"
+                if (href && href.startsWith('#') && href.length > 1) {
+                    try {
+                        const target = document.querySelector(href);
+                        if (target) {
+                            e.preventDefault();
+                            const offsetTop = target.offsetTop - 20; // Small offset for better viewing
+                            window.scrollTo({
+                                top: offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
+                    } catch (error) {
+                        // Invalid selector, let the default behavior happen
+                        console.warn('Invalid selector:', href);
+                    }
                 }
             });
         });
